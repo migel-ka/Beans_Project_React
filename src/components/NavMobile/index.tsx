@@ -14,11 +14,11 @@ const NavMobile: FC<Props> = ({ handleMenu }) => {
         <nav className={style.container}>
             <div className={style.menu}>
             <button onClick={handleMenu}>Close Menu</button>
-                <Link className={style.link} to="/beans">Beans</Link>
-                <Link className={style.link} to="/facts">Facts</Link>
-                <Link className={style.link} to="/recipes">Recipes</Link>
-                <Link className={style.link} to="/combinations">Combinations</Link>
-                <Link className={style.link} to="/history">History</Link>
+                <Link className={style.link} to="/MyProject/beans">Beans</Link>
+                <Link className={style.link} to="/MyProject/facts">Facts</Link>
+                <Link className={style.link} to="/MyProject/recipes">Recipes</Link>
+                <Link className={style.link} to="/MyProject/combinations">Combinations</Link>
+                <Link className={style.link} to="/MyProject/history">History</Link>
                 <SwitchTheme />
             </div>
         </nav>

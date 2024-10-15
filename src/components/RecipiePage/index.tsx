@@ -41,7 +41,7 @@ const RecipiePage = () => {
             <b>Ingredients</b>
             <p>{recipeData.ingredients}</p>
             <br />
-            <Link className={style.link} to={`/recipes` }> Back to recipes &rarr;</Link>
+            <Link className={style.link} to={`/MyProject/recipes` }> Back to recipes &rarr;</Link>
         </div>
         )};
         </>

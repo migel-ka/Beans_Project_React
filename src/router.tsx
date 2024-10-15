@@ -13,7 +13,7 @@ import NotFounde from "./components/NotFound";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/MyProject",
         element: <Layout />,
         loader : Loader,
         children :[
