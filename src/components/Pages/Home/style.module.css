@@ -1,0 +1,46 @@
+.home_container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .home_container img:hover {
+    animation: favicon-shake 0.7s ease-in-out 2 alternate;
+  }
+
+  .h1Main {
+    font-size: 4rem;
+  }
+  
+  .info {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .info p {
+    color: #e83a4b;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  @keyframes favicon-shake {
+    0%,
+    100% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(-5deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+  }
+  
+  @media (max-width:520px) {
+    .h1{
+      font-size: 1.5rem;
+    }
+  }

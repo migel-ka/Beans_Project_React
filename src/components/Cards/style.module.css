@@ -1,0 +1,21 @@
+.container {
+    grid-gap: 1rem;
+    display: grid;
+    font-size: 1.2rem;
+    grid-template-columns: repeat(4, auto);
+    padding: 1rem 1rem 3rem;
+    text-align: center;
+    margin: auto;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (max-width:520px) {
+    .container {
+        grid-template-columns: repeat(1, auto);
+    }
+  }

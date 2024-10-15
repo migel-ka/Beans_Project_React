@@ -1,0 +1,50 @@
+.fact {
+    border: 1px solid  rgb(236, 44, 47, 0);
+    color: #ec2c2f;
+    padding: 19.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fact:hover {
+    border: 1px solid #ec2c2f;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255, 0.5);
+    transition: ease 0.6ms;
+}
+
+.fact h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 19.2px;
+    padding: 0 0 8px;
+}
+
+.fact p {
+    font-family: "Raleway",sans-serif;
+    font-size: 12.8px;
+    color: #bd2328;
+}
+
+.link {
+    font-family: "Roboto",sans-serif;
+    text-align: left;
+    font-size: 12px;
+}
+
+.link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e83a4b;
+    transition: width .3s;
+}
+
+.link:hover::after {
+    width: 50%;
+}
+
+.aLink {
+    text-align: left;
+}

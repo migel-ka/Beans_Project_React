@@ -1,0 +1,16 @@
+.logo {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: red;
+}
+
+.logo img {
+    width: 40%;
+}
+
+.logo span {
+    font-family: "Lobster";
+    font-size: 20px;
+}

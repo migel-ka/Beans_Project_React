@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    gap: 20px;
+    color: #e83a4b;
+    margin-right: .2rem;
+    padding: 10px;
+}
+
+.link {
+    font-size: 20px;
+    border: .1rem solid #0000;
+    padding: .5rem;
+}
+
+.link:hover {
+    color: #e83a4b;
+    transition: .6ms ease;
+    border-radius:20px;
+    border: .1rem solid #e83a4b;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 900px) {
+    .container {
+        display: none;
+    }
+}

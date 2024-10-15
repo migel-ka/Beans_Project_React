@@ -1,0 +1,22 @@
+.fact {
+    border: 1px solid  rgb(236, 44, 47, 0);
+    color: #ec2c2f;
+    padding: 19.2px;
+}
+
+.fact:hover {
+    border: 1px solid #ec2c2f;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.fact h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 19.2px;
+    padding: 0 0 8px;
+}
+
+.fact p {
+    font-family: "Raleway",sans-serif;
+    font-size: 12.8px;
+}

@@ -1,0 +1,54 @@
+.card {
+    border: 1px solid  rgb(236, 44, 47, 0);
+    color: #ec2c2f;
+    padding: 19.2px;
+}
+
+.card {
+    width: 100%;
+}
+
+.beanCard{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-around;
+    padding: 1.2rem;
+}
+.card:hover {
+    border: 1px solid #ec2c2f;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.card h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 19.2px;
+    padding: 0 0 8px;
+}
+
+.card p {
+    font-family: "Raleway",sans-serif;
+    font-size: 12.8px;
+}
+
+@media (max-width:520px) {
+    .card {
+        padding: 10px;
+    }
+    
+    .beanCard{
+        height: 15rem;
+        padding: 0.5rem;
+    }
+    
+    .card h2 {
+        font-size: 15px;
+        padding: 0 0 4px;
+    }
+    
+    .card p {
+        font-size:8px;
+    }
+  }

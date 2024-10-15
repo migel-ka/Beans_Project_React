@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    font-family: "Raleway",sans-serif;
+    font-size: 12.8px;
+    color: #ec2c2f;
+}
+.container p {
+    color: #ec2c2f;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f9f5f4;
+    padding: 0.5rem;
+}
+
+@media (max-width:520px) {
+    .text{
+      font-size: .5rem;
+    }
+  }

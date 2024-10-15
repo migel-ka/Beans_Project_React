@@ -1,0 +1,42 @@
+.history {
+    border: 1px solid  rgb(236, 44, 47, 0);
+    color: #ec2c2f;
+    padding: 19.2px;
+    display: flex;
+}
+
+.history:hover {
+    border: 1px solid #ec2c2f;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.history h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 19.2px;
+    padding: 0 0 8px;
+}
+
+.history p {
+    font-family: "Raleway",sans-serif;
+    font-size: 12.8px;
+}
+
+.historyP {
+    font-weight: 700;
+}
+
+@media (max-width:520px) {
+    .history {
+        padding: 10px;
+    }
+    
+    .history h2 {
+        font-size: 15px;
+        padding: 0 0 4px;
+    }
+    
+    .history p {
+        font-size: 10px;
+    }
+  }

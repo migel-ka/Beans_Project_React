@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("./components/fonts/Lobster.otf");
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 0 50px;
+  transition: all 500ms linear;
+}
+
+.dark {
+  background: #eeeae6;
+}
+
+.light {
+  background: #f9f5f4;
+}
+
+#root {
+  min-height: 100vh;
+}

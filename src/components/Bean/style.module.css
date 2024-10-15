@@ -1,0 +1,63 @@
+.BeanCard {
+    background: #f9f5f4;
+    border-radius: 2.5rem;
+    margin: 3rem auto;
+    max-width: 885px;
+    padding: 3rem;
+    color: #e83a4b;
+   
+}
+
+.beanH3 {
+    font-family: "Roboto",sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.beanP {
+    text-align: "Raleway",sans-serif;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.beanText{
+    text-align: "Raleway",sans-serif;
+    font-size: 1rem;
+    
+    text-align: left
+
+}
+
+.imgBean {
+    width: 60%;
+}
+
+.divImg {
+    text-align: center;
+}
+.icon {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 25px 0;
+}
+
+.link {
+    font-family: "Roboto",sans-serif;
+    margin-top: 5rem;
+    text-align: left;
+}
+
+.link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e83a4b;
+    transition: width .3s;
+}
+
+.link:hover::after {
+    width: 20%;
+}

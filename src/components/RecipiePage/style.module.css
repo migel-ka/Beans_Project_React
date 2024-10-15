@@ -1,0 +1,46 @@
+.recipeCard {
+    background: #f9f5f4;
+    border-radius: 2.5rem;
+    margin: 3rem auto;
+    max-width: 885px;
+    padding: 3rem;
+    color: #e83a4b;
+    margin: .75rem 0;
+    margin: auto;
+}
+
+.recipeCard h3 {
+    font-size: 2rem;
+    font-family: "Roboto",sans-serif;
+}
+.recipeCard {
+    font-size: 1rem;
+    font-family: "Raleway",sans-serif;
+}
+
+.recipeCardimg {
+    margin: 3rem auto;
+    width: 30rem;
+}
+
+.recipeCardimg img{
+    border-radius: 3rem;
+}
+
+.link {
+    font-family: "Roboto",sans-serif;
+    margin-top: 5rem;
+}
+
+.link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e83a4b;
+    transition: width .3s;
+}
+
+.link:hover::after {
+    width: 20%;
+}
