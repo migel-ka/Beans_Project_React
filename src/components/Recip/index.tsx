@@ -19,7 +19,7 @@ const Recipie : FC<Props> = ({data}) => {
               <br />
             </div>
             <div className={style.aLink}>
-              <Link className={style.link} to={`/recipie/${data.recipeId}`}>check out this recipe &rarr;</Link>
+              <Link className={style.link} to={`/MyProject/recipie/${data.recipeId}`}>check out this recipe &rarr;</Link>
             </div>  
         </div>
     );

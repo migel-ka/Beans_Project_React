@@ -46,7 +46,7 @@ const Bean = () => {
             {beanData.kosher === true && <img src={imgKosh} alt="Kosherno" />}
             {beanData.seasonal === true && <img src={imgSes} alt="sugarFREE" />}
             </div>
-            <Link className={style.link} to={`/beans` }> Back to beans &rarr;</Link>
+            <Link className={style.link} to={`/MyProject/beans` }> Back to beans &rarr;</Link>
         </div>
         )}
         </>
