@@ -13,9 +13,9 @@
 
 .footer {
     display: flex;
+    flex: 1 1;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10px;
     background-color: #f9f5f4;
     padding: 0.5rem;
 }

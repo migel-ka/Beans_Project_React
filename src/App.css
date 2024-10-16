@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+main {
+  min-height: 100vh;
+}
+
 img{
   width: 100%;
 }
@@ -29,8 +33,4 @@ a{
 
 .light {
   background: #f9f5f4;
-}
-
-#root {
-  min-height: 100vh;
 }
